@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActividadRelative">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="@string/tituloRelativo"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/Resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="1"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/boton0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:onClick="pulsar0"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/multiplicar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/boton0"
+        android:layout_toLeftOf="@id/boton0"
+        android:onClick="multiplicar2"
+        android:text="*2" />
+
+    <Button
+        android:id="@+id/multiplcar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/boton0"
+        android:layout_toRightOf="@id/boton0"
+        android:onClick="multiplicar1"
+        android:text="*1" />
+
+    <Button
+        android:id="@+id/dividir2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/boton0"
+        android:onClick="dividir2"
+        android:layout_toLeftOf="@id/boton0"
+        android:text="/2" />
+
+    <Button
+        android:id="@+id/dividir1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/boton0"
+        android:onClick="dividir1"
+        android:layout_toRightOf="@id/boton0"
+        android:text="/1" />
+
+</RelativeLayout>

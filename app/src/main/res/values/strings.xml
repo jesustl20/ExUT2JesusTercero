@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ex_UT2_JesúsTercero</string>
+    <string name="botonRelativo">ACT RELATIVE</string>
+    <string name="botonMensaje">MENSAJE</string>
+    <string name="botonActividadDatos">ACT BBDD</string>
+    <string name="tituloRelativo">Actividad Relative Layout</string>
+    <string name="insert">Insertar/Seleccionar Coches</string>
+    <string name="modelo">Modelo</string>
+    <string name="Marca">Marca</string>
+    <string name="Caballos">CV</string>
+    <string name="insertarBaseDatos">INSERTAR</string>
+</resources>
